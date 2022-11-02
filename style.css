@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+body {
+  background-image: url("images/anubis.jpg");
+  background-color: #e8f9fd;
+  font-size: large;
+  line-height: normal;
+}
+
+h1{
+color: #021320;
+font-family: 'Island Moments', cursive;
+font-size: 50px;
+}
+
+.all{
+  background-image: url("images/walpapper.jpg");
+  background-color:#e1b382;
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+h2, h3, h4{
+  color: #000;
+  font-family: 'Island Moments', cursive;
+  font-size: 60px;
+  line-height: normal;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  font-size: 40px;
+}
+
+img {
+  width : 300px;
+  height : 300px;
+  border-radius: 50%;
+  }
+
+.intro{
+  background-image: url("images/papier.jpg");
+  background-color:#c89666;
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 500px;        /* Set the width */
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20%;
+}
+
+.info{
+  text-align: center;
+  font-family: 'Island Moments', cursive;
+  font-size: 30px;
+  background-image: url("images/papier.jpg");
+  padding: 0%;
+  border-radius: 5%;
+  margin: 5%
+}
+
+
+
+ul{
+  list-style: none;
+}
+
+p{
+  text-align: center;
+  font-family: 'Island Moments', cursive;
+  font-size: 30px;
+}
+
+.contact{
+  background-image: url("images/papier.jpg");
+  text-align: center;
+  font-family: 'Island Moments', cursive;
+  font-size: 30px;
+  border-radius: 5%;
+  margin:0%;
+
+}
+
+.about_me{
+  background-image: url("images/papier.jpg");
+  text-align: center;
+  font-family: 'Island Moments', cursive;
+  font-size: 30px;
+  border-radius: 5%;
+  margin: 5%;
+}
+
+.social{
+  background-image: url("images/papier.jpg");
+  background-color: #000000;
+  text-align: center;
+  font-family: 'Island Moments', cursive;
+  font-size: 30px;
+  padding: 15px;
+  border-radius: 5%;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .all {
+    width: 700px;
+
+  }
+}
